@@ -4,6 +4,13 @@ MediFlow is a next-generation healthcare platform that combines **Real-Time Pati
 
 ![MediFlow Dashboard](/Users/rajpc/.gemini/antigravity/brain/708504e5-a2ac-4069-911f-5dae41a25e9d/mediflow_working_system_1768680182565.png)
 
+## 🌐 Live Demo
+
+| Service | URL | Status |
+| :--- | :--- | :--- |
+| **Frontend** | [https://mediflow-bice.vercel.app](https://mediflow-bice.vercel.app) | 🟢 Live |
+| **Backend** | [https://mediflow-ikiv.onrender.com](https://mediflow-ikiv.onrender.com) | 🟢 Live |
+
 ## 🚀 Key Features
 
 *   **Real-Time Vitals Engine**: Simulates and processes high-concurrency data streams (Heart Rate, BP) using **Java 21 Virtual Threads**.
