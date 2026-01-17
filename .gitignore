@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+
+# IDEs
+.idea
+.vscode
+*.iml
+
+# Node
+node_modules
+dist
+.next
+npm-debug.log
+
+# Maven / Java
+target
+.mvn/wrapper/maven-wrapper.properties
+!mvnw
+!mvnw.cmd
+help.md
+
+# Application
+*.log
+backend/backend.zip
+temp-project
