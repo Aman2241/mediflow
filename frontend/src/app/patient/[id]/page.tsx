@@ -25,7 +25,7 @@ export default function PatientDetail() {
         }
 
         const client = new Client({
-            brokerURL: 'ws://localhost:8080/ws-vitals',
+            brokerURL: process.env.NEXT_PUBLIC_WS_URL || 'ws://localhost:8080/ws-vitals',
             onConnect: () => {
                 setConnected(true);
                 client.subscribe(`/topic/vitals/${id}`, (message) => {

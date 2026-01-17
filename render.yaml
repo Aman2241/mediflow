@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: mediflow-backend
+    runtime: docker
+    repo: https://github.com/Aman2241/mediflow
+    rootDir: backend
+    plan: free
+    region: singapore
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: PORT
+        value: 8080
+    buildFilter:
+      paths:
+      - backend/**
+      - docker-compose.yml
