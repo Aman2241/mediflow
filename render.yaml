@@ -3,7 +3,7 @@ services:
     name: mediflow-backend
     runtime: docker
     repo: https://github.com/Aman2241/mediflow
-    rootDir: backend
+    repo: https://github.com/Aman2241/mediflow
     plan: free
     region: singapore
     envVars:

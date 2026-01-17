@@ -21,10 +21,14 @@ Vercel is the best place to host Next.js apps.
 1.  Sign up at [vercel.com](https://vercel.com).
 2.  Click **Add New...** -> **Project**.
 3.  Import the `mediflow` repository.
-4.  **Important:** Configure Environment Variables before clicking Deploy.
+4.  **Configure Project:**
+    *   **Framework Preset**: Select **Next.js**.
+    *   **Root Directory**: Click `Edit` and select `frontend`. **(Crucial Step!)**
+5.  **Environment Variables:**
     *   **Settings** -> **Environment Variables**:
-        *   `NEXT_PUBLIC_API_URL`: `https://mediflow-backend.onrender.com/api` (Replace with your actual Render URL)
-        *   `NEXT_PUBLIC_WS_URL`: `wss://mediflow-backend.onrender.com/ws-vitals` (Note the `wss://` for secure WebSocket)
+        *   `NEXT_PUBLIC_API_URL`: `https://your-render-url.onrender.com/api`
+        *   `NEXT_PUBLIC_WS_URL`: `wss://your-render-url.onrender.com/ws-vitals`
+        *   *(Note: The Domain is the SAME for both. Just change `https://` to `wss://` and append `/ws-vitals`)*
 5.  Click **Deploy**.
 
 ## 3. Verify Live Site
